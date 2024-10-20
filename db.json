@@ -1,0 +1,123 @@
+{
+    "users": [
+        {
+            "id": "fbf4",
+            "userName": "Hoa",
+            "email": "hoa@gmail.com",
+            "password": "1"
+        },
+        {
+            "id": "bcad",
+            "userName": "Hoa03",
+            "email": "hoane@gmail.com",
+            "password": "123hoa"
+        },
+        {
+            "id": "d82b",
+            "userName": "HoaDB",
+            "email": "hoaa@gmail.com",
+            "password": "hoa123"
+        }
+    ],
+    "products": [
+        {
+            "id": "6b68",
+            "image": "https://m.media-amazon.com/images/I/61CGHv6kmWL._AC_SL1000_.jpg",
+            "name": "BENGOO G9000 Stereo Gaming Headset for PS4 PC Xbox One PS5 Controller, Noise Cancelling Over Ear Headphones with Mic, LED Light, Bass Surround, Soft Memory Earmuffs (Blue)",
+            "amount": 15,
+            "price": 18.5,
+            "branch": "Headset",
+            "star": 4
+        },
+        {
+            "id": "7076",
+            "image": "https://m.media-amazon.com/images/I/71aDZGDOwlL._AC_SL1500_.jpg",
+            "name": "SteelSeries Apex Pro TKL HyperMagnetic Gaming Keyboard - Adjustable Actuation - Esports Tenkeyless - OLED Screen - RGB - PBT Keycaps - USB-C - 2023 Edition,Black",
+            "amount": 25,
+            "price": 189.99,
+            "branch": "Keyboard and mouse",
+            "star": 5
+        },
+        {
+            "id": "9978",
+            "image": "https://m.media-amazon.com/images/I/61okFRY8uPL._AC_SL1500_.jpg",
+            "name": "Razer Basilisk V3 X HyperSpeed Wireless Gaming Mouse: Up to 285 Hr Battery - 18K Optical Sensor - Mechanical Switches - Chroma RGB - 9 Programmable Controls",
+            "amount": 143,
+            "price": 69.99,
+            "branch": "Keyboard and mouse",
+            "star": 3
+        },
+        {
+            "id": "dc38",
+            "image": "https://m.media-amazon.com/images/I/71raaXgxhtL._AC_SL1500_.jpg",
+            "name": " ASUS ROG Delta S Gaming Headset with USB-C | Ai Powered Noise-Canceling Microphone | Over-Ear Headphones for PC, Mac, Nintendo Switch, and Sony",
+            "amount": 15,
+            "price": 199.99,
+            "branch": "Headset",
+            "star": 5
+        },
+        {
+            "id": "8a76",
+            "image": "https://m.media-amazon.com/images/I/61BnXRMOoGL._AC_SL1500_.jpg",
+            "name": "Redragon H510 Zeus-X RGB Pink Wired Gaming Headset - 7.1 Surround Sound - 53MM Audio Drivers in Memory Foam Ear Pads w/Durable Fabric Cover- Multi Platforms",
+            "amount": 8,
+            "price": 123.67,
+            "branch": "Headset",
+            "star": 4
+        },
+        {
+            "id": "9d2f",
+            "image": "https://m.media-amazon.com/images/I/81JERD9NfDL._AC_SL1500_.jpg",
+            "name": "Redragon H510 Zeus-X RGB Pink Wired Gaming Headset - 7.1 Surround Sound - 53MM Audio Drivers in Memory Foam Ear Pads w/Durable Fabric Cover- Multi Platforms",
+            "amount": 34,
+            "price": 60.99,
+            "branch": "Headset",
+            "star": 5
+        },
+        {
+            "id": "8922",
+            "image": "https://m.media-amazon.com/images/I/71C+dSmk+KL._AC_SL1500_.jpg",
+            "name": " MSI Thin A15 15.6” 144Hz FHD Gaming Laptop: Ryzen 5-7535HS, NVIDIA Geforce RTX 2050, 8GB DDR5, 512GB NVMe SSD, Cooler Boost 5, Win 11: Black B7UCX-218US",
+            "amount": 99,
+            "price": 699.99,
+            "branch": "Computer",
+            "star": 5
+        },
+        {
+            "id": "c9c9",
+            "image": "https://m.media-amazon.com/images/I/717IaZVyToL._AC_SL1500_.jpg",
+            "name": " RedThunder K10 Wireless Gaming Keyboard and Mouse Combo, LED Backlit Rechargeable 3800mAh Battery, Mechanical Feel Anti-ghosting Keyboard + 7D 3200DPI Mice",
+            "amount": 67,
+            "price": 42.56,
+            "branch": "Keyboard and mouse",
+            "star": 5
+        },
+        {
+            "id": "2bf8",
+            "image": "https://m.media-amazon.com/images/I/61gczCi51mL._AC_SL1024_.jpg",
+            "name": "Razer Tartarus V2 Gaming Keypad: Mecha Membrane Key Switches - One Handed Keyboard - 32 Programmable Keys - Customizable Chroma RGB Lighting - Programmable",
+            "amount": 19999,
+            "price": 79.99,
+            "branch": "Keyboard and mouse",
+            "star": 5
+        },
+        {
+            "id": "70ff",
+            "image": "ề",
+            "name": "fgf",
+            "amount": 655,
+            "price": 76,
+            "branch": "Apple smartphones",
+            "star": 2
+        },
+        {
+            "id": "80a9",
+            "image": "https://d1hjkbq40fs2x4.cloudfront.net/2017-08-21/files/landscape-photography_1645-t.jpg",
+            "name": "hii",
+            "amount": 7,
+            "price": 56,
+            "branch": "Computer",
+            "star": 1
+        }
+    ]
+}
