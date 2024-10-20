@@ -1,14 +1,24 @@
-import express, { Request, Response } from 'express';
+import jsonServer from 'json-server';
+import path from 'path';
+import fs from 'fs';
 
-const app = express();
-const port = process.env.PORT || 4000;
+const server = jsonServer.create();
+const filePath = path.join(__dirname, 'db.json');
+const data = fs.readFileSync(filePath, 'utf-8');
+const db = JSON.parse(data);
+const router = jsonServer.router(db);
+const middlewares = jsonServer.defaults();
 
-app.use(express.json());
+server.use(middlewares);
+server.use(jsonServer.rewriter({
+    '/api/*': '/$1',
+    '/blog/:resource/:id/show': '/:resource/:id',
+}));
 
-app.get('/', (req: Request, res: Response) => {
-  res.send('Hello World!');
+server.use(router);
+
+server.listen(3000, () => {
+    console.log('JSON Server is running');
 });
 
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`);
-});
+export default server;

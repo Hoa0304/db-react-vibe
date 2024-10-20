@@ -10,12 +10,12 @@
     "dev": "ts-node src/server.ts"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "json-server": "^0.17.4"
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "@types/express": "^5.0.0",
     "@types/node": "^22.7.7",
+    "json-server": "^1.0.0-beta.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.3"
   }
